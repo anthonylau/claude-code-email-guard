@@ -1,0 +1,14 @@
+{
+  "name": "email-guard",
+  "description": "email-guard, a Claude Code mod that keeps your Claude account email away from the model.",
+  "owner": {
+    "name": "anthonylau"
+  },
+  "plugins": [
+    {
+      "name": "email-guard",
+      "source": "./",
+      "description": "Keeps your Claude account email out of the model's context, asks you before any tool call that contains it or reads where it is kept, and redacts it from tool results."
+    }
+  ]
+}
